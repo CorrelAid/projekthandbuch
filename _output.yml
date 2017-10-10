@@ -1,0 +1,8 @@
+bookdown::gitbook:
+  lib_dir: libs
+  split_by: rmd
+  config:
+    toolbar:
+      position: static
+bookdown::pdf_book:
+  keep_tex: yes
