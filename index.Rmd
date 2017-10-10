@@ -1,5 +1,10 @@
 # Einleitung: Überblick über den Projektablauf {#intro}
 
+```{r libraries, echo=FALSE}
+library(emo)
+```
+
+
 ## Einführungs- und Überblickstext
  
 > Überblick, wie ein Projekt von CoorrelAid aussehen kann
@@ -32,7 +37,7 @@ Erfolgreiche Projekte und spannende Erfahrungen wünschen dir,
 ## Beteiligte Rollen nennen und deren Verantwortungsbereiche darstellen.
 
 - NGO -- (auch Partnerorganisation)
-- CorrelAid -- Wir :smiley: 
+- CorrelAid -- Wir 
 - Vorstand -- Vorstand der CorrelAid e.V., schließt die Vereinberung mit der Partnerorganisation
 - Kernteam -- Das Orgateam von CorrelAid, im Prinzip alle, die auf Slack sind und mitarbeiten
 - ProjektkoordinatorIn -- Mitglied des Kernteams, koordiniert das Projekt
