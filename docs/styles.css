@@ -1,0 +1,28 @@
+div.blue {
+	border-radius: 15px;
+	background: #D9EDF7;
+	padding: 20px; 
+	color: #3A7695;
+}
+
+div.red {
+	border-radius: 15px;
+	background: #F2DEDE;
+	padding: 20px; 
+	color: #BC6C6A;
+}
+
+
+div.yellow {
+	border-radius: 15px;
+	background: #FCF8E3;
+	padding: 20px; 
+	color: #AD986E;
+}
+
+div.green {
+	border-radius: 15px;
+	background: #DFF0D8;
+	padding: 20px; 
+	color: #99BB96;
+}
