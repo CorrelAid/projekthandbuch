@@ -4,5 +4,6 @@ bookdown::gitbook:
   config:
     toolbar:
       position: static
+    download: ["pdf"]
 bookdown::pdf_book:
   keep_tex: yes
