@@ -1,11 +1,18 @@
+---
+params:
+  emoji: true
+---
+
 # Ausschreiben des Projektes im Netzwerk {#ausschreiben}
 
 ## Überblick
- 
-> - Ziel: Aufstellen eines passenden Projektteams aus dem CorrelAid-Netzwerk
-> - Zeitrahmen: 3 Wochen
-> - Zeitaufwand: 6-8 h
-> - Relevante Akteurinnen: Projektkoordinatorin, Core Team, Auswahlgruppe (wird im Prozess gebildet)
+
+```{block, type='blue'} 
+ - Ziel: Aufstellen eines passenden Projektteams aus dem CorrelAid-Netzwerk
+ - Zeitrahmen: 3 Wochen
+ - Zeitaufwand: 6-8 h
+ - Relevante Akteurinnen: Projektkoordinatorin, Core Team, Auswahlgruppe (wird im Prozess gebildet)
+```
 
 ## Prozessgrafik
 
@@ -157,3 +164,52 @@ Die Projektkoordinatorin sendet eine separate Email an das Projektteam (inkl. Pr
 - Template für Protokoll der Auswahlgruppe
 - Templates für Zu- und Absagen
 - Template für Begrüßungsemail
+
+### Template Formular
+
+```{block, type='yellow'}
+
+# CorrelAid: Projektausschreibung [Projektname]
+
+## Rahmendaten
+
+**Bewerbungsfrist:** [Datum]
+
+**Team:** X x DatenanalystInnen
+
+**Projektzeitraum:** Mitte Oktober 2016 bis Ende Dezember 2016
+
+## Formular
+
+Vorname*
+
+Name*
+
+E-Mail-Adresse*
+
+Gender *
+
+- Weiblich
+- Männlich
+- Möchte ich nicht angeben/so definieren.
+
+Stadt *
+
+Universität/Arbeitgeber
+
+Mit welcher Statistik-Software arbeitest du hauptsächlich?*
+
+- R
+- Python
+- Andere (siehe Textfeld in der nächsten Zeile)
+
+Welche weitere Software nutzt du? [Textfeld]
+
+Meine Einschätzung zu meinen R-Kenntnissen
+
+Projektspezifischen Fragen
+
+
+*Pflichtfeld
+
+```
