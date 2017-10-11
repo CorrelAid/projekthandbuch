@@ -2,6 +2,6 @@ title: "CorrelAid Projekthandbuch"
 book_filename: "projekthandbuch"
 language:
   ui:
-    chapter_name: "Kapitel "
+    chapter_name: ""
 delete_merged_file: true
 output_dir: "docs"
