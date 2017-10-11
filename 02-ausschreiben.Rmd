@@ -1,11 +1,18 @@
+---
+params:
+  emoji: true
+---
+
 # Ausschreiben des Projektes im Netzwerk {#ausschreiben}
 
 ## Überblick
- 
-> - Ziel: Aufstellen eines passenden Projektteams aus dem CorrelAid-Netzwerk
-> - Zeitrahmen: 3 Wochen
-> - Zeitaufwand: 6-8 h
-> - Relevante Akteurinnen: Projektkoordinatorin, Core Team, Auswahlgruppe (wird im Prozess gebildet)
+
+```{block, type='blue'} 
+ - Ziel: Aufstellen eines passenden Projektteams aus dem CorrelAid-Netzwerk
+ - Zeitrahmen: 3 Wochen
+ - Zeitaufwand: 6-8 h
+ - Relevante Akteurinnen: Projektkoordinatorin, Core Team, Auswahlgruppe (wird im Prozess gebildet)
+```
 
 ## Prozessgrafik
 
@@ -157,3 +164,229 @@ Die Projektkoordinatorin sendet eine separate Email an das Projektteam (inkl. Pr
 - Template für Protokoll der Auswahlgruppe
 - Templates für Zu- und Absagen
 - Template für Begrüßungsemail
+
+### Template Formular
+
+```{block, type='yellow'}
+
+# CorrelAid: Projektausschreibung [Projektname]
+
+## Rahmendaten
+
+**Bewerbungsfrist:** [Datum]
+
+**Team:** X x DatenanalystInnen
+
+**Projektzeitraum:** Mitte Oktober 2016 bis Ende Dezember 2016
+
+## Formular
+
+Vorname*
+
+Name*
+
+E-Mail-Adresse*
+
+Gender *
+
+- Weiblich
+- Männlich
+- Möchte ich nicht angeben/so definieren.
+
+Stadt *
+
+Universität/Arbeitgeber
+
+Mit welcher Statistik-Software arbeitest du hauptsächlich?*
+
+- R
+- Python
+- Andere (siehe Textfeld in der nächsten Zeile)
+
+Welche weitere Software nutzt du? [Textfeld]
+
+Meine Einschätzung zu meinen R-Kenntnissen
+
+Projektspezifischen Fragen
+
+
+*Pflichtfeld
+
+```
+
+### Template für Ausschreibung
+
+```{block, type='yellow'}
+
+Betreff: [CorrelAid] Projektausschreibung: [Projektname]
+
+## Rahmendaten
+
+**Organisation:** Name der Orga
+**Team:** 1 TeamleiterIn (Name), 3 DatenanalystInnen (Du?)
+**Thema:** 1-2 allgemeine Worte zu den durchzuführenden Analyen
+**Projektzeitraum:** 
+ 
+## Das Projekt
+
+Absatz zur Oroganisation
+
+Absatz zum Inhalt des Projekts
+
+Wenn ihr an dem Projekt mitarbeiten wollt, solltet ihr mindestens X Stunden pro Woche für aufwenden können. Uns ist zudem eine kontinuierliche Mitarbeit am Projekt wichtig. 
+
+*Bitte beachte, dass sicher deutlich mehr Leute ihr Interesse an dem Projekt bekunden werden als in dem Projektteam mitarbeiten können. Wir bitten um dein Verständnis, solltest du bei diesem Projekt nicht dabei sein können. Dieses Projekt wird sicher nicht unser letztes sein, sodass sich bestimmt noch weitere Möglichkeiten ergeben, aktiv bei CorrelAid mitzuwirken.*
+
+*Alle Interessensbekundungen werden nach Ablauf der Ausschreibungsfrist am DATUM von unserer Auswahlgruppe gesichtet. Innerhalb einer Woche erfährst, ob du bei dem Projekt dabei bist.*
+
+[Button: Apply now]
+
+Bei Fragen schreibe gerne eine Mail an [E-Mail der Projektkordinatorin]
+
+```
+
+### Template für Übersicht über Bewerberinnen
+
+```{block, type='yellow'}
+
+
+| No. | Gender | Stadt | Ausbildung | Relevante berufliche Erfahrung|Statistik-Software| Weitere Software | Einschätzung zu R-Kenntnissen| Projektspezifische Fragen
+| -------- | -------- | -------- | -------- | -------- | -------- |-------- |-------- | -------- |
+| Bewerber_in 1    |      |      |
+| Bewerber_in 2    |      |      |
+| Bewerber_in 3    |      |      |
+
+```
+
+### Template für Beurteilungstabelle 
+
+```{block, type='yellow'}
+
+| No. | Persönliche Daten |persönliche Ausgeglichenheit| Datenanalysekenntnisse| Projektrelevante Kenntnisse
+| -------- | -------- | -------- | -------- | -------- | -------- |-------- |-------- | -------- |
+| Bewerber_in 1    |      |      |
+| Bewerber_in 2    |      |      |
+| Bewerber_in 3    |      |      |
+
+```
+
+### Template für Zusage
+
+```{block, type='yellow'}
+
+Betreff: [CorrelAid] Deine Bewerbung auf das Projekt "[Projektname]"
+
+Liebe/r [Name Bewerberin],
+
+vielen Dank für Deine Bereitschaft, an unserem Projekt für [Name Organisation] mitzuwirken. Ich freue mich
+sehr, Dir sagen zu können, dass Du bei unserem Projekt mit dabei bist.
+
+Bitte gib mir schnell Bescheid, ob Du nachwievor mitmachen möchtest.
+
+Weitere Details folgen dann in Kürze. Der Projektworkshop findet schon bald und zwar am [Datum] statt. Du erhältst bald mehr Infos dazu. Bitte trage Dir diesen Termin schon mal in Deinem Kalender ein.
+
+Unter meiner E-Mail findest Du nochmal zur Erinnerung die
+Projektbeschreibung.
+
+Herzliche Grüße
+
+[Projektkoordinatorin]
+
+```
+
+### Template für Absage
+
+```{block, type='yellow'}
+
+Betreff: [CorrelAid] Deine Bewerbung auf das Projekt "[Projektname]" 
+
+Liebe/r [Name Bewerberin],
+
+vielen Dank für Dein Interesse, an unserem Pilotprojekt 
+mitzuarbeiten. Wir haben uns über die Resonanz, die wir
+erhalten haben, sehr gefreut. Leider bringt die Vielzahl an 
+Rückmeldungen mit sich, dass wir eine Auswahl treffen 
+mussten.
+
+Leider bist Du bei unserem Pilotprojekt nicht dabei. Das solltest Du
+keinesfalls als negative Wertung Deiner Fachkenntnisse betrachten. Bei
+unserer Auswahl haben eine Vielzahl an Kriterien eine Rolle gespielt -
+so haben wir auch darauf geachtet, dass wir eben nicht nur nach den
+besten Statistikkenntnissen auswählen, sondern ein Team mit vielfältigen
+Erfahrungen und Interessen zusammenstellen.
+
+Unserem Pilotprojekt werden bald weitere Projekte folgen. Bei der
+Auswahl berücksichtigen wir auch, ob AnalystInnen in der Vergangenheit
+leider nicht zum Zuge kamen. Die nächste Möglichkeit zur
+Projektmitarbeit kommmt also sicher bald.
+
+Mit Fragen und Ideen kannst Du Dich auch gerne jederzeit an mich wenden.
+
+Herzliche Grüße
+
+[Projektkoordinatorin]
+
+```
+
+### Template für Begrüßung des Projektteams
+
+```{block, type='yellow'}
+
+Betreff: [CorrelAid] Herzlich willkommen im Projektteam
+
+Liebe [alle Namen des Projetteams auflisten]
+
+herzlich im Projektteam, das in den nächsten Wochen das Projekt für [Organisation] bearbeiten wird. Ich freue mich sehr, dass ihr mit dabei seid.
+
+Ich bin [Name Projektkordinatorin] und koordiniere dieses Projekt für CorrelAid. Ich kümmere mich um organisatorische Aspekte. 
+
+Eure Projektleiterin ist [Name Projektleiterin]. [Vorstellung der Projektleiterin] 
+
+Ihr werdet euch alle auf dem Workshop kennenlernen. Hier schon mal mit einem Satz zu jedem wer alles im Team mit dabei ist.
+
+[Vorstellung Teammitglieder]
+
+Der Workshop wird am [Datum] in [Ort] stattfinden. Orgasachen abfragen.
+
+Zur Kommunikation im Team nutzen wir das Tool Slack. Dazu erhaltet ihr separat von mir eine Einladung. Ihr könnt euch dort gerne schon vor dem Workshop anmelden und als Team kommunizieren. Auf dem Workshop werden wir das Tool und wie wir es nutzen vorstellen.
+
+Die Projektarbeit mit euch gliedert sich im Folgenden in 3 Phasen: Zunächst kommt der Workshop in dem ihr [die Organisation] sowie die weiteren Projektmitglieder kennenlernt. Hier lernt ihr unsere Tools kennen und erarbeitet ein Vorgehen für eure Projektarbeit. Daran schließt das eigentliche Projekt an welches mit einem Abschlussbericht beendet wird. Dieser Bericht geht anschließend in ein Peer Review Verfahren mit erfahrenen Mitgliedern aus unserem Netzwerk. 
+...
+
+Herzliche Grüße
+Arndt
+
+```
+
+### Template für Fact Sheet
+
+```{block, type='yellow'}
+
+- Basic Information von Projekt 
+    - Projektinhalt
+    - Partnerorganisation
+    - Datum und Dauer
+    - Projektleiter, Projektkoordinatorin, Auswahlkommission, Projektteammitglieder
+- Zusammenfassung von Koordinationserfahrung
+    - Ausschreiben des Projektes
+    - Vorbereitung und Koordination von Workshop
+    - Unterstützung bei der Projektarbeit
+    - Peer Review
+    - Organisationsarbeit nach Abgabe von Projektbericht (Feedbackgespräche, Erstellung von Testimonial usw.)
+- Feedback von Projektteam und Projektleitung
+    - Feedback zu Projektarbeit
+    - Feedback zu CorrelAid
+- Feedback von Partnerorganisation
+    - Feedback zu Projektarbeit und Projektleiterin
+    - Feedback zu Koordinationsarbeit von Projektkoordinatorin
+    - Bereitschaft, Vorschläge durchzusetzen
+    - Künftige Kooperationsmöglichkeit
+- Tipps für Zukunft
+
+```
+
+## Referenzen und Hinweise
+
+- [MailChimp](http://mailchimp.com/)
+    + Zugang
+- Hinweis wo sich die Liste der bisherigen Projektteammitglieder und BewerberInnen befindet

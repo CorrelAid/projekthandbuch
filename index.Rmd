@@ -1,3 +1,8 @@
+---
+params:
+  emoji: true
+---
+
 # Einleitung: Überblick über den Projektablauf {#intro}
 
 ```{r libraries, echo=FALSE}
@@ -6,12 +11,14 @@ library(emo)
 
 
 ## Einführungs- und Überblickstext
- 
-> Überblick, wie ein Projekt von CoorrelAid aussehen kann
-> Tipps und Tricks für die Organisation
-> beta-Version, creative commins, Entwickelt es weiter!
-> Rolle der Projektkoordinatorin und - leitern
-> Hilfreich auch für  alle Mitglieder des Teams.
+
+```{block, type='blue'}
+Überblick, wie ein Projekt von CoorrelAid aussehen kann
+Tipps und Tricks für die Organisation
+beta-Version, creative commins, Entwickelt es weiter!
+Rolle der Projektkoordinatorin und - leitern
+Hilfreich auch für  alle Mitglieder des Teams.
+```
 
 
 Vor Dir liegt Projekthandbuch für Projektkoordinatorinnen von CorrelAid. Hier haben wir nicht nur festgehalten, was für ein Projekt, auf dem CorrelAid draufsteht, wichtig ist, sondern auch eine Menge Tipps und Tricks versammelt, die im Verlauf eines Projektes nützlich sind. Denn mit diesem Handbuch wollen wir vor allem eines: es Dir ermöglich, ein eigenes Projekt durchzuführen! Deswegen haben wir es auch öffentlich zugänglich und unter einer Creative Commons Lizenz veröffentlich. Projekte für alle sozusagen.
@@ -37,7 +44,7 @@ Erfolgreiche Projekte und spannende Erfahrungen wünschen dir,
 ## Beteiligte Rollen nennen und deren Verantwortungsbereiche darstellen.
 
 - NGO -- (auch Partnerorganisation)
-- CorrelAid -- Wir 
+- CorrelAid -- Wir `r if(params$emoji==T) emo::ji('smile')`
 - Vorstand -- Vorstand der CorrelAid e.V., schließt die Vereinberung mit der Partnerorganisation
 - Kernteam -- Das Orgateam von CorrelAid, im Prinzip alle, die auf Slack sind und mitarbeiten
 - ProjektkoordinatorIn -- Mitglied des Kernteams, koordiniert das Projekt
