@@ -3,7 +3,7 @@ bookdown::gitbook:
   split_by: rmd
   config:
     toolbar:
-      position: static
+      position: fixed
     download: ["pdf"]
   css: styles.css
   includes:
