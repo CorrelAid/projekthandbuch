@@ -6,5 +6,8 @@ bookdown::gitbook:
       position: static
     download: ["pdf"]
   css: styles.css
+  includes:
+    in_header: favicon.html
+    before_body: logo.html
 bookdown::pdf_book:
   keep_tex: yes
