@@ -1,6 +1,6 @@
 ---
 params:
-  emoji: true
+  emoji: yes
 ---
 
 # Einleitung: Überblick über den Projektablauf {#intro}

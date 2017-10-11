@@ -1,6 +1,6 @@
 ---
 params:
-  emoji: true
+  emoji: yes
 ---
 
 # Ausschreiben des Projektes im Netzwerk {#ausschreiben}
