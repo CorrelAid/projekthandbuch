@@ -12,15 +12,6 @@ library(emo)
 
 ## Einführungs- und Überblickstext
 
-```{block, type='blue'}
-Überblick, wie ein Projekt von CoorrelAid aussehen kann
-Tipps und Tricks für die Organisation
-beta-Version, creative commins, Entwickelt es weiter!
-Rolle der Projektkoordinatorin und - leitern
-Hilfreich auch für  alle Mitglieder des Teams.
-```
-
-
 Hallo! Schön, dass du hier bist.
 Vor Dir liegt das *Projekthandbuch für Projektkoordinatorinnen* von CorrelAid. Hier haben wir festgehalten, was für ein Projekt von uns wichtig ist, dazu eine Menge Tipps und Tricks versammelt, die Dir im Verlauf deines Projektes nützlich sein können. Denn dieses Handbuch hat einen Zweck: es soll Dir ermöglich, ein eigenes Projekt durchzuführen! Deswegen haben wir es auch öffentlich zugänglich und unter einer Creative Commons Lizenz veröffentlich. Du kannst es nutzen, verändern und für deine Zwecke anpassen.
 
