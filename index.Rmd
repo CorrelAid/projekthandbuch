@@ -12,17 +12,10 @@ library(emo)
 
 ## Einführungs- und Überblickstext
 
-```{block, type='blue'}
-Überblick, wie ein Projekt von CoorrelAid aussehen kann
-Tipps und Tricks für die Organisation
-beta-Version, creative commins, Entwickelt es weiter!
-Rolle der Projektkoordinatorin und - leitern
-Hilfreich auch für  alle Mitglieder des Teams.
-```
+Hallo! Schön, dass du hier bist.
+Vor Dir liegt das *Projekthandbuch für Projektkoordinatorinnen* von CorrelAid. Hier haben wir festgehalten, was für ein Projekt von uns wichtig ist, dazu eine Menge Tipps und Tricks versammelt, die Dir im Verlauf deines Projektes nützlich sein können. Denn dieses Handbuch hat einen Zweck: es soll Dir ermöglich, ein eigenes Projekt durchzuführen! Deswegen haben wir es auch öffentlich zugänglich und unter einer Creative Commons Lizenz veröffentlich. Du kannst es nutzen, verändern und für deine Zwecke anpassen.
 
-
-Vor Dir liegt Projekthandbuch für Projektkoordinatorinnen von CorrelAid. Hier haben wir nicht nur festgehalten, was für ein Projekt, auf dem CorrelAid draufsteht, wichtig ist, sondern auch eine Menge Tipps und Tricks versammelt, die im Verlauf eines Projektes nützlich sind. Denn mit diesem Handbuch wollen wir vor allem eines: es Dir ermöglich, ein eigenes Projekt durchzuführen! Deswegen haben wir es auch öffentlich zugänglich und unter einer Creative Commons Lizenz veröffentlich. Projekte für alle sozusagen.
-Gute Projektarbeit ist kein Hexenwerk, funktioniert aber auch nicht von alleine. Gerade dezentrale Teams stellen besondere Herausforderungen an Projektkoordinatorinnen und -leiterinnen. Im Folgenden findest du alle wichtigen Projektschritte mit jeweils einem Kapitel beschrieben.  
+Gute Projektarbeit ist kein Hexenwerk, funktioniert aber auch nicht von alleine. Gerade dezentrale Teams stellen besondere Herausforderungen an Projektkoordinatorinnen und -leiterinnen. Im Folgenden findest du alle für CorrelAid wichtigen Projektschritte in jeweils einem Kapitel beschrieben.  
 
 2. Ausschreiben des Projektes im Netzwerk
 3. Workshop
@@ -34,19 +27,19 @@ Gute Projektarbeit ist kein Hexenwerk, funktioniert aber auch nicht von alleine.
 9. Projektinfrastruktur
 10. Anhang
 
-Keine der hier vorgeschlagenen Methoden und Verfahren musst Du so 1:1 umsetzen. Wichtig ist es immer, dass du die Bedürfnisse deines Teams und die xy des Projektes im Blick behälst. Probier aus und verwerfe, was nicht passt. Dieses Handbuch soll ein Werkzeugkasten sein, aus dem Du dich bedienen kannst!
-Daher auch die zweite Bitte: lege neue Werkzeuge, die du kennst und kennen lernst, gerne dazu. Unser Handbuch befindet sich in einem Dauerhaften beta-Status. Wir probieren aus, sammelen Erfahrungen und bauen um. Kurze Itterationen nennt man das. Deine Rückmeldungen zu dem Handbuch kannst du uns gerne [hier] oder [hier] zukommen lassen.
+Keine der hier vorgeschlagenen Methoden und Verfahren musst Du so 1:1 umsetzen. Wichtiger ist es immer, dass du die Bedürfnisse deines Teams und die Anforderungen des Projektes im Blick behälst. Probier aus und verwerfe, was nicht passt. Dieses Handbuch ist ein Werkzeugkasten sein, aus dem Du dich frei bedienen kannst!
+Daher auch eine Bitte: füge dem Handbuch neue Werkzeuge hinzu, die du kennst und aktualisiere es mit deinen Projekterfahrungen. Unser Handbuch ist dauerhaft beta. Wir probieren aus, sammeln Erfahrungen und bauen immer wieder um. Rückmeldungen zu dem Handbuch kannst du gerne an [Arndt](mailto:arndt.l@correlaidorg) aus dem CorrelAid-Kernteam schicken.
 
 Erfolgreiche Projekte und spannende Erfahrungen wünschen dir,
 
 .johannes .arndt .yuhzu .regina .sebastian
 
-## Beteiligte Rollen nennen und deren Verantwortungsbereiche darstellen.
+## Wer ist an einem CorrelAid-Projekt beteiligt?
 
-- NGO -- (auch Partnerorganisation)
-- CorrelAid -- Wir `r if(params$emoji==T) emo::ji('smile')`
-- Vorstand -- Vorstand der CorrelAid e.V., schließt die Vereinberung mit der Partnerorganisation
-- Kernteam -- Das Orgateam von CorrelAid, im Prinzip alle, die auf Slack sind und mitarbeiten
-- ProjektkoordinatorIn -- Mitglied des Kernteams, koordiniert das Projekt
-- ProjektleiterIn -- Leitet die konkrete Durchführung es Projekts, steht dem Projektteam als primus inter pares vor
-- Projektteam -- Team, das das Projekt durchführt, rekrutiert sich aus dem Netzwerk
+- NGO -- unsere Partnerorganisation und Auftraggeberin, von der das Projekt kommt und für die wir es umsetzen. 
+- CorrelAid -- Wir :smiley: 
+- Vorstand -- Vorstand der CorrelAid e.V., schließt die Vereinberung mit der Partnerorganisation.
+- Kernteam -- Das Orgateam von CorrelAid, de facto alle, die auf Slack mitarbeiten.
+- Projektkoordinatorin -- Mitglied des Kernteams, die das Projekt von der Akquise an betreut und für die Rückbindung des Projektteams an das Kernteam zuständig ist.
+- Projektleiterin -- Leitet die Durchführung des Projekts als Teil und primus inter pares des Projektteams. 
+- Projektteam -- Netzwerkmitglieder von CorrelAid, die sich in einem Projekt engagieren.

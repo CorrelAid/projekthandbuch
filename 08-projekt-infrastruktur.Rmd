@@ -1,0 +1,54 @@
+---
+params:
+emoji: true
+---
+
+# Projektinfratstruktur
+
+- [Einführung in die CorrelAid Infrastruktur](https://hackmd.io/CwJhFMDYDNoBgLQHYAmLIOADhSBAjATiWgRXAFYBjYKrAQ3NiA==)
+- [CorreAid Infrastrktur](https://hackmd.io/CYRghiBsBGAcCsBaaBOeZEBYDGAmDYA7PAMyKTwAMApocLvIbjEA)
+
+## Dateiaustausch im Projektteam
+
+- Einrichtung CorrelCloud
+- Funktionsweise CorrelCloud
+
+## E-Mail-Verschlüsselung
+
+Für Übertragung der Zugangsdaten zu den Daten nutzen wir verschlüsselte E-Mails. Dazu braucht ihr das Programm GNUPG - dieses stellt die Verschlüsselungstechnik bereit - und ein Plugin für Euer E-Mail-Programm. 
+
+Auf Linux ist GNUPG meist schon installiert. Windows- und Mac-NutzerInnen können es hier herunterladen: [https://gnupg.org/download/index.html](https://gnupg.org/download/index.html). Für Windows gibt es auch das Softwarepaket GPG4Win: [http://www.gpg4win.org/](http://www.gpg4win.org/). Wir empfehlen die Verwendung des E-Mail-Programms Thunderbird in Verbindung mit dem Plugin Enigmail. Enigmail kann aus dem Add-On-Menü von Thunderbird installiert werden.
+
+Eine Erklärung von PGP und Erläuterung zur Einrichtung mit Enigmail findest Du hier:
+
+[https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/](https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/)
+
+## Datenübertragung
+
+Funktionsweise von CorrelCloud
+
+## Verschlüsselung (VeraCrypt)
+
+VeraCrypt ist ein Verschlüsselungsprogramm und TrueCrypt Nachfolger. Mit Hilfe von VeraCrypt lassen sich verschlüsselte in frei gewählter Größe Container erstellen. Zum entschlüsseln ("to mount" genannt) wird ein Passwort gebraucht. Ein entschlüsselter ("Mounted") VeraCrypt Container erscheint als ein neues Laufwerk auf dem Rechner. Alle Daten, die auf dieses Laufwerkabgelegt werden, werden automatisch verschlüsselt. Programme können trotzdem auf diese Daten zugreifen, da sie dafür im Arbeitsspeicher entschlüsselt werden.
+
+AnalystInnen bekommen die Projektdaten als VeraCrypt Container und das dazugehörige Passwort. Zum Arbeiten an den Daten muss der Container entschlüsselt werden. Die Daten dürfen aber nie entschlüsselt auf einem Rechner gespeichert werden. Darum darf z.B. auch der Workspace von R nicht gespeichert werden.
+
+Herunterladen lässt sich VeraCrypt hier:
+
+[https://veracrypt.codeplex.com/](https://veracrypt.codeplex.com/)
+
+Eine schnelle Anleitung gibt es hier. Für die Arbeit bei CorrelAid reicht es bei allen Schritten die default Einstellungen zu verwenden:
+
+[https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial](https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial "Beginner%27s%20Tutorial")
+
+## Datenlöschung
+
+Werden Daten mit der normalen "Löschen"-Funktion gelöscht, wird zunächst nur der Verweis auf die Daten gelöscht und der entsprechende Platz auf der Festplatte zum Überschreiben freigeggeben. Richtig gelöscht werden die Daten allerdings erst, wenn der Platz auf der Festplatte irgendwann mal überschrieben wird. Sicheres Löschen bedeutet daher auch das Überschreiben der Daten. Für normale Festplatten (HDD) bieten sich zum sicheren Löschen einzelner Dateien folgende Programme an:
+
+Windows: [Eraser](http://www.heise.de/download/eraser-heidi-eraser-1118980.html)
+
+Linux: [Wipe](http://wipe.sourceforge.net/)
+
+Apple: [Permanent Eraser](http://www.edenwaith.com/products/permanent%20eraser/)
+
+Auf neueren (SSD) Festplatten werden Datein leider nicht als Block sondern in Teilen an vielen Orten gespeichert. Sicheres Löschen einzlener Datei ist auf SSD Festplatten momentan leider nicht verlässlich möglich. Daher ist es wichtig, dass CorrelAid Daten nie unverschlüsselt abgespeichert werden.
