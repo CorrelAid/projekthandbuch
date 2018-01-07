@@ -4,6 +4,7 @@ bookdown::gitbook:
   config:
     toolbar:
       position: fixed
+    download: no
   css: styles.css
   includes:
     in_header: favicon.html
@@ -11,4 +12,5 @@ bookdown::pdf_book:
   keep_tex: yes
   includes:
     in_header: header.tex
-  download: no
+  config:
+    download: no
