@@ -7,6 +7,7 @@ params:
 
 ## Überblick
 
+
 Dieses Kapitel gibt grundlegende Informationen zur Zusammenarbeit im Projektteam und der Zusammenarbeit der Projektkoordinatorin mit dem Projektteam.
 
 - Ein eigenes Slack für das Projektteam ist sinnvoller als nur ein Channel (im CorrelAid-Slack).

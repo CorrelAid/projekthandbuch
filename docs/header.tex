@@ -1,0 +1,18 @@
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\definecolor{back-blue}{HTML}{D9EDF7}
+\definecolor{text-blue}{HTML}{3A7695}
+\definecolor{back-red}{HTML}{F2DEDE}
+\definecolor{text-red}{HTML}{BC6C6A}
+\definecolor{back-green}{HTML}{DFF0D8}
+\definecolor{text-green}{HTML}{99BB96}
+\definecolor{back-yellow}{HTML}{FCF8E3}
+\definecolor{text-yellow}{HTML}{AD986E}
+
+\newenvironment{blue}{\begin{tcolorbox}[colback=back-blue, colupper=text-blue, colframe=white]} {\end{tcolorbox}}
+
+\newenvironment{red}{\begin{tcolorbox}[colback=back-red, colupper=text-red, colframe=white]} {\end{tcolorbox}}
+
+\newenvironment{green}{\begin{tcolorbox}[colback=back-green, colupper=text-green, colframe=white]} {\end{tcolorbox}}
+
+\newenvironment{yellow}{\begin{tcolorbox}[colback=back-yellow, colupper=text-yellow, colframe=white]} {\end{tcolorbox}}

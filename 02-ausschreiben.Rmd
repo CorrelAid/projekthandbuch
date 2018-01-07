@@ -3,6 +3,12 @@ params:
   emoji: yes
 ---
 
+<!-- # ```{r echo=FALSE} -->
+<!-- # library(readr) -->
+<!-- # library(knitr) -->
+<!-- # library(kableExtra) -->
+<!-- # ``` -->
+
 # Ausschreiben des Projektes im Netzwerk {#ausschreiben}
 
 ## Überblick
@@ -28,41 +34,41 @@ params:
 
 ## Anleitung
 
-### Einrichtung des Projekt-Factsheet
-Die Projektleiterin benutzt das template für Projekt-Factsheet in der CorrelCloud und erstellt ein Projekt-Factsheet. Im Prozess von Projektkoordination bis zum Abschluss von Projekt sollte die Projektleiterin immer daran erinnern, relevante Information in Projekt-Fachsheet zu dokumentieren. Nach Projektabschluss veröffentlicht die Projektleiterin das Projekt-Factsheet im Channel "Vorstand" auf Slack, das als Diskussionsvorlage für Telefonkonferenz dienen soll. Danach wird das Fachsheet in der CorrelCloud gespeichert.
+### Einrichtung des Projekt-Factsheets
+Die Projektleiterin benutzt das Template für Projekt-Factsheet in der CorrelCloud und erstellt ein Projekt-Factsheet. Im Prozess von Projektkoordination bis zum Abschluss von Projekt sollte die Projektleiterin immer daran erinnern, relevante Informationen im Projekt-Fachsheet zu dokumentieren. Nach Projektabschluss veröffentlicht die Projektleiterin das Projekt-Factsheet im Channel "Vorstand" auf Slack. Es dient als Diskussionsvorlage für die Telefonkonferenz. Danach wird das Fachsheet in der CorrelCloud gespeichert.
 
 Das Factsheet umfasst folgende Punkte, die im Laufe des Projektes ergänzt werden:
-- Basic Information von Projekt 
+- Basic Information des Projekt s
     - Projektinhalt
     - Partnerorganisation
     - Datum und Dauer
-    - Projektleiter, Projektkoordinatorin, Projektteammitglieder
+    - Projektleiterin, Projektkoordinatorin, Projektteammitglieder
 - Zusammenfassung von Koordinationserfahrung
-- Feedback von Projektteam
-- Feedback von Projektleitung
-- Tipps für Zukunft
+- Feedback des Projektteams
+- Feedback der Projektleitung
+- Tipps für die Zukunft
 
 ### Einrichtung des Formulars
 
-Die Projektkoordinatorin erstellt bei MailChimp ein Formular, über das sich Netzwerkmitglieder, die Interesse an der Mitarbeit haben, melden. Als Vorlage dient das Template aus der Mailchimp-Vorlage.
+Die Projektkoordinatorin erstellt bei MailChimp ein Formular, über das sich Netzwerkmitglieder, die Interesse an der Mitarbeit haben, melden. Als Vorlage dient das Template aus der MailChimp-Vorlage.
 
-Die Projektkoordinatorin definiert mit dem Vorstand und der Projektleitung, welche Skills für das Projekt gebraucht werden. Dinge, die nicht Voraussetzung sind, sollten nicht abgefragt werden. Erfahrung mit NextClould oder \(R\)MarkDown sind keine Voraussetzung und werden nicht m Formular abgefragt. Diese werden noch vom ausgewählten Team abgefragt, um diese Themen im Workshop entsprechend zu berücksichtigen. Im Bewerbungsprozess erheben wir nur für die Auswahl und Kontaktaufnahme mit Projektteammitgliedern unbedingt notwendige Daten.
+Die Projektkoordinatorin definiert mit dem Vorstand und der Projektleitung, welche Skills für das Projekt gebraucht werden. Dinge, die nicht Voraussetzung sind, sollten nicht abgefragt werden. Erfahrung mit NextClould oder \(R\)MarkDown sind keine Voraussetzung und werden nicht im Formular abgefragt. Diese werden noch vom ausgewählten Team abgefragt, um diese Themen im Workshop entsprechend zu berücksichtigen. Im Bewerbungsprozess erheben wir nur die für die Auswahl und Kontaktaufnahme mit Projektteammitgliedern unbedingt notwendigen Daten.
 
-Die Projektkoordinatorin teilt den Link zum Formular auf Slack im Channel `#projekte` und erbittet Feedback unter Nennung einer konkreter Deadline für das Feedback - wenige Tage. Die Projektkoordinatorin überarbeitet das Formular auf Basis des Feedbacks. Dazu legt sie bei Mailchimp eine neue Kampagne an - als Vorlage dient das Template für Projektausschreibungen.
+Die Projektkoordinatorin teilt den Link zum Formular auf Slack im Channel `#projekte` und erbittet Feedback unter Nennung einer konkreten Deadline für das Feedback - wenige Tage. Die Projektkoordinatorin überarbeitet das Formular auf Basis des Feedbacks. Dazu legt sie bei MailChimp eine neue Kampagne an - als Vorlage dient das Template für Projektausschreibungen.
 
 ### Aussendungen über MailChimp
 
-Die Projektkoordinatorin verschickt die Projektausschreibung über das Netzwerk. Die Ausschreibung enthält einen Link zu dem Formular über das sich Interessierte an dem Projekt melden. Die Projektkoordinatorin macht dies selber oder bittet ein Mitglied des Kernteams mit Zugang zu MailChimp um Hilfe.
+Die Projektkoordinatorin verschickt die Projektausschreibung über das Netzwerk. Die Ausschreibung enthält einen Link zu dem Formular, über das sich Interessierte für das Projekt melden. Die Projektkoordinatorin macht dies selber oder bittet ein Mitglied des Kernteams mit Zugang zu MailChimp um Hilfe.
 
-Für die Projektausschreibung gibt es ein Template auf MailChimp, das die Projektkoordinatorin dafür nutzen soll. Die Textbausteine des Templates sind auch in diesem Abschnitt des Handbuch unter Templates aufgeführt.
+Für die Projektausschreibung gibt es ein Template auf MailChimp, das die Projektkoordinatorin dafür nutzen soll. Die Textbausteine des Templates sind auch in diesem Abschnitt des Handbuchs unter Templates aufgeführt.
 
 Die Projektkoordinatorin passt das Python-Skript für automatisierte Bestätigungs-E-Mail an und aktiviert es anschließend. Hierbei können Frie (`@frie`) oder Jan (`@tollpatsch`) um Hilfe gebeten werden. Das Skript prüft täglich, ob es neue Eintragungen in die Liste gab und verschickt an diese eine Bestätgigungs-Email, über den Erhalt der Bewerbung. Der Text dieser E-Mail muss projektspezifisch angepasst werden.
 
-Die Projektkoordinatorin schickt nach Ablauf einer Woche eine Erinnerung an die Ausschreibung ans Netzwerk. Es handelt sich dabei um den ursprünglichen Ausschreibungstext, der um 1-2 Sätze ergänzt wird, dass es sich um eine Erinnerung an die in einer Woche ablaufende Ausschreibung handele. Diese Erinnerung kann bei Ausschicken der initialen Einschreibung schon versandfertig gemacht und vorgetimet werden.
+Die Projektkoordinatorin schickt nach Ablauf einer Woche eine Erinnerung an die Ausschreibung ans Netzwerk. Es handelt sich dabei um den ursprünglichen Ausschreibungstext, der um 1-2 Sätze ergänzt wird, dass es sich um eine Erinnerung an die in einer Woche ablaufende Ausschreibung handelt. Diese Erinnerung kann bei Verschicken der initialen Einschreibung schon versandfertig gemacht und vorgetimet werden.
 
 ### Bildung der Auswahlgruppe
 
-Direkt nach Versendung der Ausschreibung kümmert sich die Projektkoordinatorin um die Bildung einer Auswahlgruppe, welche aus den Interessentinnen aus dem Netzwerk ein Projektteam auswählen wird. Dazu erstellt die Projektkoordinatorin im Slack-Channel `#general` eine Abstimmung mit der Frage "Möchtest Du an der Auswahlgruppe für das Projekt '[Projektname]'" teilnehmen. Alle Mitglieder des Kern-Teams (also alle auf Slack) können Teil der Auswahlgruppe werden.
+Direkt nach Versand der Ausschreibung kümmert sich die Projektkoordinatorin um die Bildung einer Auswahlgruppe, welche aus den Interessentinnen aus dem Netzwerk ein Projektteam auswählen wird. Dazu erstellt die Projektkoordinatorin im Slack-Channel `#general` eine Abstimmung mit der Frage "Möchtest Du an der Auswahlgruppe für das Projekt '[Projektname]'" teilnehmen. Alle Mitglieder des Kernteams (also alle auf Slack) können Teil der Auswahlgruppe werden.
 
 Außerdem legt die Projektkoordinatorin bereits einen Termin für die Telefon- oder appear.in-Konferenz der Auswahlgruppe fest. Die Mitglieder des Kernteams sollen nur "Ja" sagen, wenn sie an diesem Termin können. Der Termin sollte möglichst unmittelbar nach Ablauf der Bewerbungsfrist liegen. 
 
@@ -78,15 +84,15 @@ Ein Polly-befehl könnte also wie folgt aussehen:
 - 3 Mitglieder
     + die Projektkoordinatorin
     + 2 Mitglieder des Kernteams (zufällig ausgewählt)
-- Die Mitgliedschaft in der Auswahlgruppe und eine Bewerbung auf das Projekt schließen sich aus. Ob die Projektleiterin auch Teil der Ausahlgruppe ist kann je nach Projekt entschieden werden.
+- Die Mitgliedschaft in der Auswahlgruppe und eine Bewerbung auf das Projekt schließen sich aus. Ob die Projektleiterin auch Teil der Auswahlgruppe ist, kann je nach Projekt entschieden werden.
 
 ### Auswahl eines Projektteams
 
 Die Projektkoordinatorin schließt das Formular. Sie exportiert anschließend die Liste aus MailChimp.
 
-Sie nutzt das Template für die Bewerberinnenübersicht, um eine Übersicht über die Bewerberinnen für die Auswahlgruppe zu erstellen. Sie ändert dazu den Code am Anfang des RMarkdown-Dokuments so, dass dieses die aus Mailchimp exportierte Liste der Bewerberinnen lädt und kompiliert das Dokument als PDF. Das Dokument schickt sie den Mitgliedern der Auswahlkommission entweder in einer persönlichen Nachricht per Slack oder in einer verschlüsselten E-Mail.
+Sie nutzt das Template für die Bewerberinnenübersicht, um eine Übersicht über die Bewerberinnen für die Auswahlgruppe zu erstellen. Sie ändert dazu den Code am Anfang des RMarkdown-Dokuments so, dass dieses die aus MailChimp exportierte Liste der Bewerberinnen lädt und kompiliert das Dokument als PDF. Das Dokument schickt sie den Mitgliedern der Auswahlkommission entweder in einer persönlichen Nachricht per Slack oder in einer verschlüsselten E-Mail.
 
-In dieser Nachricht schickt die Projektkoordinatorin  auch eine Erinnerung an die Konferenz der Auswahlgruppe. Diese findet per Telefon oder appear.in statt. Die Auswahlgruppe hält ihre Entscheidung in einem Protokoll fest. Dazu wird eine Protokollantin bestimmt.
+In dieser Nachricht schickt die Projektkoordinatorin auch eine Erinnerung an die Konferenz der Auswahlgruppe. Diese findet per Telefon oder appear.in statt. Die Auswahlgruppe hält ihre Entscheidung in einem Protokoll fest. Dazu wird eine Protokollantin bestimmt.
 
 Bei der Auswahl kann es hilfreich sein, die Aufgabe als das Befüllen einer Berufungsliste zu betrachten. Zunächst soll die beste Bewerberin identifiziert werden, dann die zweite und so weiter. Dabei ist zu beachten, dass nicht nur die statistischen und technischen Fähigkeiten, sondern auch inhaltliche Interessen und Kompetenzen sowie Soft Skills beachtet werden sollen. Außerdem wollen wir explizit nicht die technisch besten auswählen, sondern auch gezielt Interessierte mit Lernpotenzial auswählen. **Den BewerberInnen wird niemals eine Rangfolge kommuniziert. Diese soll nur eine Hilfestellung für den Auswahlprozess sein.**
 
@@ -269,6 +275,13 @@ Bei Fragen schreibe gerne eine Mail an [E-Mail der Projektkordinatorin]
 | Bewerber_in 3    |      |      |
 
 ```
+
+<!-- # ```{r echo=FALSE, message=FALSE} -->
+<!-- # tab <- read_csv("tables/02_beurteilungstabelle.csv") -->
+<!-- # kable(tab, "html") %>%  -->
+<!-- #   kable_styling() %>%  -->
+<!-- #   scroll_box(width = "800px", height = "300px") -->
+<!-- # ``` -->
 
 ### Template für Zusage
 

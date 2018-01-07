@@ -4,11 +4,9 @@ bookdown::gitbook:
   config:
     toolbar:
       position: fixed
-    # download: ["pdf"]
   css: styles.css
   includes:
     in_header: favicon.html
-    # before_body: logo.html
 bookdown::pdf_book:
   keep_tex: yes
   includes:
