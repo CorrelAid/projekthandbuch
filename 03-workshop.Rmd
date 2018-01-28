@@ -5,7 +5,7 @@ params:
 
 # Workshop
 
-  ## Überblick
+## Überblick
 
 ```{block, type='blue'}
 - Ziel: Das Projektteam arbeitsfähig machen.

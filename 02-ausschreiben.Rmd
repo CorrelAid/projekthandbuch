@@ -38,7 +38,8 @@ params:
 Die Projektleiterin benutzt das Template für Projekt-Factsheet in der CorrelCloud und erstellt ein Projekt-Factsheet. Im Prozess von Projektkoordination bis zum Abschluss von Projekt sollte die Projektleiterin immer daran erinnern, relevante Informationen im Projekt-Fachsheet zu dokumentieren. Nach Projektabschluss veröffentlicht die Projektleiterin das Projekt-Factsheet im Channel "Vorstand" auf Slack. Es dient als Diskussionsvorlage für die Telefonkonferenz. Danach wird das Fachsheet in der CorrelCloud gespeichert.
 
 Das Factsheet umfasst folgende Punkte, die im Laufe des Projektes ergänzt werden:
-- Basic Information des Projekt s
+
+- Basic Information des Projekts
     - Projektinhalt
     - Partnerorganisation
     - Datum und Dauer
@@ -83,7 +84,8 @@ Ein Polly-befehl könnte also wie folgt aussehen:
 
 - 3 Mitglieder
     + die Projektkoordinatorin
-    + 2 Mitglieder des Kernteams (zufällig ausgewählt)
+    + mindestens 2 Mitglieder des Kernteams (zufällig ausgewählt)
+    + bei der Bildung der Auswahlgruppe ist auf die Geschlechterparität zu achten
 - Die Mitgliedschaft in der Auswahlgruppe und eine Bewerbung auf das Projekt schließen sich aus. Ob die Projektleiterin auch Teil der Auswahlgruppe ist, kann je nach Projekt entschieden werden.
 
 ### Auswahl eines Projektteams
@@ -137,10 +139,10 @@ Die Projektkoordinatorin sendet eine Begrüßungsemail an das Projektteam (inkl.
 - lädt die Teammitglieder zu Slack ein
 
 Die Projektkoordinatorin lädt die Teammitglieder zu Slack sein. 
-Hierfür geht man im Menu des Correlaid-Vhannels auf die Option "Invite people". In der sich daraufhin öffnenden Maske werden die Mailadressen der jeweiligen Teammitglieder sowie deren Namen eingetragen. 
+Hierfür geht man im Menü des Correlaid-Channels auf die Option "Invite people". In der sich daraufhin öffnenden Maske werden die Mailadressen der jeweiligen Teammitglieder sowie deren Namen eingetragen. 
 Hat die Projektleiterin noch keine Administratorenrechte für Slack haben sollte dies nachgeholt werden. 
 
-Sobald das Team auf Slack ist teilt sie der Projektleiterin die Nutzerinnennamen des Teams mit und bitte diese, einen geschlossenen Kanal für das Team einzurichten.
+Die Projektkoordinatorin richten einen geschlossenen Channel für das Team ein. Darin sind nur die Projektkoordinatorin, die Projektleiterin und die Projektteammitglieder.
 
 Die Projektkoordinatorin ergänzt die Liste unserer Projekte auf der CorrelCloud um das neue Projekte und die Mitglieder des Projektteams.
 
@@ -349,11 +351,11 @@ Betreff: [CorrelAid] Herzlich willkommen im Projektteam
 
 Liebe [alle Namen des Projetteams auflisten]
 
-herzlich im Projektteam, das in den nächsten Wochen das Projekt für [Organisation] bearbeiten wird. Ich freue mich sehr, dass ihr mit dabei seid.
+herzlich willkommen im Projektteam, das in den nächsten Wochen das Projekt für [Organisation] bearbeiten wird. Ich freue mich sehr, dass ihr mit dabei seid.
 
 Ich bin [Name Projektkordinatorin] und koordiniere dieses Projekt für CorrelAid. Ich kümmere mich um organisatorische Aspekte. 
 
-Eure Projektleiterin ist [Name Projektleiterin]. [Vorstellung der Projektleiterin] 
+Eure Projektleiterin ist [Name Projektleiterin]. [Vorstellung der Projektleiterin]
 
 Ihr werdet euch alle auf dem Workshop kennenlernen. Hier schon mal mit einem Satz zu jedem wer alles im Team mit dabei ist.
 
@@ -364,7 +366,6 @@ Der Workshop wird am [Datum] in [Ort] stattfinden. Orgasachen abfragen.
 Zur Kommunikation im Team nutzen wir das Tool Slack. Dazu erhaltet ihr separat von mir eine Einladung. Ihr könnt euch dort gerne schon vor dem Workshop anmelden und als Team kommunizieren. Auf dem Workshop werden wir das Tool und wie wir es nutzen vorstellen.
 
 Die Projektarbeit mit euch gliedert sich im Folgenden in 3 Phasen: Zunächst kommt der Workshop in dem ihr [die Organisation] sowie die weiteren Projektmitglieder kennenlernt. Hier lernt ihr unsere Tools kennen und erarbeitet ein Vorgehen für eure Projektarbeit. Daran schließt das eigentliche Projekt an welches mit einem Abschlussbericht beendet wird. Dieser Bericht geht anschließend in ein Peer Review Verfahren mit erfahrenen Mitgliedern aus unserem Netzwerk. 
-...
 
 Herzliche Grüße
 Arndt
