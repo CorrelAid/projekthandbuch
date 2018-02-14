@@ -31,9 +31,11 @@ Ein Hackmd Pad ist ein Online-Dokument, wie du selbst gerade sehen kannst! An Ha
 
 Das Coreteam telefoniert beispielsweise wöchentlich und legt für diese Telefonkonferenzen ein Pad an, dass gleichzeitig Agenda und Protokoll ist. Das kann auch für Projektteams sehr hilfreich sein. Außer für die Vorbereitung und Protokollierung von Telefonkonferenzen kann man Pads auch gut für Ideensammlungen nutzen.
 
+## Verschlüsselung
 
+Datensicherheit ist von größter Wichtigkeit für CorrelAid. Auch wenn wir in den wenigsten Projekten mit personenbezogenen Daten zu haben, so haben wir es doch meist mit sensiblen, weil organisationsinternen Daten zu tun. Deshalb dürfen Projektdaten nie unverschlüsselt auf euren Rechnern gespeichert werden. Für die Verschlüsselung der Daten gibt es zwei Möglichkeiten. Grundsätzlich müssen Projektteammitglieder immer einen separaten Account auf ihrem Computer für die Arbeit für CorrelAid anlegen. Manche Betriebssystem erlauben es, das Heimverzeichnis des Benutzerkontos zu verschlüsseln. Hinweise mit welchen Betriebssystemen und wie das geht liefert der nächste Abschnitt. Hast Du diese Möglichkeit mit deinem Betriebssystem nicht, dann nutzt du stattdessen VeraCrypt, das im übernächsten Abschnitt beschrieben wird.
 
-## Datenübertragung und Dateiaustausch
+### Verschlüsseltes Heimverzeichnis
 
 ### VeraCrypt
 
@@ -43,9 +45,12 @@ AnalystInnen bekommen die Projektdaten als VeraCrypt Container und das dazugehö
 
 Herunterladen lässt sich VeraCrypt [hier](https://veracrypt.codeplex.com/). Auf der Website findet sich auch eine [Anleitung](https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial). Bitte lies diese aufmerksam durch Für die Arbeit bei CorrelAid reicht es bei allen Schritten die Voreinstellungen zu verwenden:
 
+## Datenübertragung und Dateiaustausch
+
 ### CorrelCloud
 
 ### Git
+
 
 ### Eraser, Permanent Eraser oder Wipe für die Datenlöschung
 
