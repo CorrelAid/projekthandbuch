@@ -5,43 +5,49 @@ emoji: true
 
 # Projektinfratstruktur
 
-- [Einführung in die CorrelAid Infrastruktur](https://hackmd.io/CwJhFMDYDNoBgLQHYAmLIOADhSBAjATiWgRXAFYBjYKrAQ3NiA==)
-- [CorreAid Infrastrktur](https://hackmd.io/CYRghiBsBGAcCsBaaBOeZEBYDGAmDYA7PAMyKTwAMApocLvIbjEA)
+Technologie bzw. Software ist wenn nicht das A und O so doch zumindest das A bie CorrelAid. Vor und nach dem Kickoff-Projektworkshop kommunizieren das Team untereinander sowie die Projektkoordinatorin mit dem Team nur digital. Dazu nur wir verschiedene Softwarelösungen. Die wichtigsten, weil sie in quasi jedem Projekt genutzt werden, stellen wir hier vor.  
 
-## Dateiaustausch im Projektteam
+## Kommunikation
 
-- Einrichtung CorrelCloud
-- Funktionsweise CorrelCloud
+### Slack
 
-## E-Mail-Verschlüsselung
+Slack ist ein Kommunikationstool zur besseren Koordination von Teams. Ein Slack ist in verschiedene thematische Channel eingeteilt. Prinzipiell kannst du es dir wie eine Sammlung von Whatsapp-Gruppenchats vorstellen, angereichert mit einigen nützlichen Features (File-Sharing, Direct Messages, Gifs...).
 
-Für Übertragung der Zugangsdaten zu den Daten nutzen wir verschlüsselte E-Mails. Dazu braucht ihr das Programm GNUPG - dieses stellt die Verschlüsselungstechnik bereit - und ein Plugin für Euer E-Mail-Programm. 
+correlaid.slack.com
 
-Auf Linux ist GNUPG meist schon installiert. Windows- und Mac-NutzerInnen können es hier herunterladen: [https://gnupg.org/download/index.html](https://gnupg.org/download/index.html). Für Windows gibt es auch das Softwarepaket GPG4Win: [http://www.gpg4win.org/](http://www.gpg4win.org/). Wir empfehlen die Verwendung des E-Mail-Programms Thunderbird in Verbindung mit dem Plugin Enigmail. Enigmail kann aus dem Add-On-Menü von Thunderbird installiert werden.
+eigener Channel für Projektteam, bei Bedarf mehr
 
-Eine Erklärung von PGP und Erläuterung zur Einrichtung mit Enigmail findest Du hier:
+Natürlich bist Du herzlich willkommen, dich auch in anderen Channels an den Diskussionen zu beteiligen.
 
-[https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/](https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/)
+### GNUPG
 
-## Datenübertragung
+GNUPG ist ein Kryptografie-System mit dem man digitale Signaturen erstellen und Dateien verschlüsseln kann. Auf Linux ist GNUPG meist schon installiert. Windows- und Mac-NutzerInnen können es hier herunterladen: [https://gnupg.org/download/index.html](https://gnupg.org/download/index.html). Für Windows gibt es auch das Softwarepaket GPG4Win: [http://www.gpg4win.org/](http://www.gpg4win.org/).
 
-Funktionsweise von CorrelCloud
+Für die Übertragung der Zugangsdaten zu den Daten nutzen wir verschlüsselte E-Mails. GNUPG stellt die Verschlüsselungstechnik bereit. Zusätzlich braucht es noch ein Plugin für Euer E-Mail-Programm. Wir empfehlen die Verwendung des E-Mail-Programms Thunderbird in Verbindung mit dem Plugin Enigmail. Enigmail kann aus dem Add-On-Menü von Thunderbird installiert werden. Eine Erklärung von PGP und Erläuterung zur Einrichtung mit Enigmail findest Du [hier](https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/). Thunderbird, falls du es noch nicht nutzt, kannst Du [hier](https://www.mozilla.org/de/thunderbird/) herunterladen.
 
-## Verschlüsselung (VeraCrypt)
+### Hackmd
+
+Ein Hackmd Pad ist ein Online-Dokument, wie du selbst gerade sehen kannst! An Hackmd-Pads (oder kurz Pads) können mehrere Personen gleichzeitig arbeiten  (*live collaborative editing*). Sie sind in Markdown geschrieben, einer ziemlich einfachen Markup-Sprache. Öffne mal unser ["Willkommen!"-Pad](https://hackmd.io/CwJhFMDYDNoBgLQHYAmLIOADhSBAjATiWgRXAFYBjYKrAQ3NiA==?view). Wenn du oben links auf den Split-View umschaltest (zwischen dem Auge und dem Stift), kannst du im linken Panel den "Code" für dieses Dokument sehen. In diesem Pad findest Du auch mehr Informationen zur Nutzung von Hackmd im Coreteam von CorrelAid.
+
+Das Coreteam telefoniert beispielsweise wöchentlich und legt für diese Telefonkonferenzen ein Pad an, dass gleichzeitig Agenda und Protokoll ist. Das kann auch für Projektteams sehr hilfreich sein. Außer für die Vorbereitung und Protokollierung von Telefonkonferenzen kann man Pads auch gut für Ideensammlungen nutzen.
+
+
+
+## Datenübertragung und Dateiaustausch
+
+### VeraCrypt
 
 VeraCrypt ist ein Verschlüsselungsprogramm und TrueCrypt Nachfolger. Mit Hilfe von VeraCrypt lassen sich verschlüsselte in frei gewählter Größe Container erstellen. Zum entschlüsseln ("to mount" genannt) wird ein Passwort gebraucht. Ein entschlüsselter ("Mounted") VeraCrypt Container erscheint als ein neues Laufwerk auf dem Rechner. Alle Daten, die auf dieses Laufwerkabgelegt werden, werden automatisch verschlüsselt. Programme können trotzdem auf diese Daten zugreifen, da sie dafür im Arbeitsspeicher entschlüsselt werden.
 
 AnalystInnen bekommen die Projektdaten als VeraCrypt Container und das dazugehörige Passwort. Zum Arbeiten an den Daten muss der Container entschlüsselt werden. Die Daten dürfen aber nie entschlüsselt auf einem Rechner gespeichert werden. Darum darf z.B. auch der Workspace von R nicht gespeichert werden.
 
-Herunterladen lässt sich VeraCrypt hier:
+Herunterladen lässt sich VeraCrypt [hier](https://veracrypt.codeplex.com/). Auf der Website findet sich auch eine [Anleitung](https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial). Bitte lies diese aufmerksam durch Für die Arbeit bei CorrelAid reicht es bei allen Schritten die Voreinstellungen zu verwenden:
 
-[https://veracrypt.codeplex.com/](https://veracrypt.codeplex.com/)
+### CorrelCloud
 
-Eine schnelle Anleitung gibt es hier. Für die Arbeit bei CorrelAid reicht es bei allen Schritten die default Einstellungen zu verwenden:
+### Git
 
-[https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial](https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial "Beginner%27s%20Tutorial")
-
-## Datenlöschung
+### Eraser, Permanent Eraser oder Wipe für die Datenlöschung
 
 Werden Daten mit der normalen "Löschen"-Funktion gelöscht, wird zunächst nur der Verweis auf die Daten gelöscht und der entsprechende Platz auf der Festplatte zum Überschreiben freigeggeben. Richtig gelöscht werden die Daten allerdings erst, wenn der Platz auf der Festplatte irgendwann mal überschrieben wird. Sicheres Löschen bedeutet daher auch das Überschreiben der Daten. Für normale Festplatten (HDD) bieten sich zum sicheren Löschen einzelner Dateien folgende Programme an:
 
@@ -51,4 +57,4 @@ Linux: [Wipe](http://wipe.sourceforge.net/)
 
 Apple: [Permanent Eraser](http://www.edenwaith.com/products/permanent%20eraser/)
 
-Auf neueren (SSD) Festplatten werden Datein leider nicht als Block sondern in Teilen an vielen Orten gespeichert. Sicheres Löschen einzlener Datei ist auf SSD Festplatten momentan leider nicht verlässlich möglich. Daher ist es wichtig, dass CorrelAid Daten nie unverschlüsselt abgespeichert werden.
+Auf neueren (SSD) Festplatten werden Datein leider nicht als Block sondern in Teilen an vielen Orten gespeichert. Sicheres Löschen einzelner Dateien ist auf SSD Festplatten momentan leider nicht verlässlich möglich. Daher ist es wichtig, dass Daten aus CorrelAid-Projekten nie unverschlüsselt abgespeichert werden.
