@@ -3,7 +3,7 @@ params:
 emoji: true
 ---
 
-# Projektinfratstruktur
+# Projektinfrastruktur
 
 Technologie bzw. Software ist wenn nicht das A und O so doch zumindest das A bie CorrelAid. Vor und nach dem Kickoff-Projektworkshop kommunizieren das Team untereinander sowie die Projektkoordinatorin mit dem Team nur digital. Dazu nutzen wir verschiedene Softwarelösungen. Die wichtigsten, weil sie in fast jedem Projekt genutzt werden, stellen wir hier vor.  
 
