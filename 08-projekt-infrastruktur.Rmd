@@ -5,25 +5,38 @@ emoji: true
 
 # Projektinfratstruktur
 
-Technologie bzw. Software ist wenn nicht das A und O so doch zumindest das A bie CorrelAid. Vor und nach dem Kickoff-Projektworkshop kommunizieren das Team untereinander sowie die Projektkoordinatorin mit dem Team nur digital. Dazu nur wir verschiedene Softwarelösungen. Die wichtigsten, weil sie in quasi jedem Projekt genutzt werden, stellen wir hier vor.  
+Technologie bzw. Software ist wenn nicht das A und O so doch zumindest das A bie CorrelAid. Vor und nach dem Kickoff-Projektworkshop kommunizieren das Team untereinander sowie die Projektkoordinatorin mit dem Team nur digital. Dazu nutzen wir verschiedene Softwarelösungen. Die wichtigsten, weil sie in fast jedem Projekt genutzt werden, stellen wir hier vor.  
+
+Die Projektkoordinatorin legt vor dem Kickoff-Workshop in Absprache mit der Projektleitung fest, welche Softwarelösungen zum Einsatz kommen. Hier gibt es zwei Varianten, die sich im wesentlichen danach unterscheiden welche Software zum Dateiaustausch im Projektteam zum Einsatz kommt.
+
+
+| Git                                    | CorrelCloud                        |
+|----------------------------------------|------------------------------------|
+| Slack                                | Slack                            |
+| GNPUG und Enigmail                   | GNPUG und Enigmail               |
+| Verschlüsseltes Heimverzeichnis oder VeraCrypt | Verschlüsseltes Heimverzeichnis oder VeraCrypt |
+| Git (lokal) und Gitlab (Server)      | NextCloud-Client (lokal) und CorrelCloud (Server)  |
+ 
 
 ## Kommunikation
+
+Auf Paul Watzlawick geht das Diktum "Man kann nicht nicht kommunizieren" zurück und er hat Recht. Für die regelmäßige Kommunikation im Team kommt Slack zum Einsatz, für die sichere Übertragung sensibler Informationen und Daten verschlüsselte E-Mails und für regelmäßige Besprechungen und Absprachen Telekonferenzen. Die Agenda und das Protokoll für letztere werden, je nachdem welche Lösung das Team für den Dateiaustausch nutzt, auf GitLab oder der CorrelCloud geführt.
 
 ### Slack
 
 Slack ist ein Kommunikationstool zur besseren Koordination von Teams. Ein Slack ist in verschiedene thematische Channel eingeteilt. Prinzipiell kannst du es dir wie eine Sammlung von Whatsapp-Gruppenchats vorstellen, angereichert mit einigen nützlichen Features (File-Sharing, Direct Messages, Gifs...).
 
-correlaid.slack.com
+Unser Slack ist [correlaid.slack.com](https://correlaid.slack.com/). Dort kommuniziert das Core-Team in diversen Channels. Für unsere Projektteam richten wir einige private Channels ein. Diese sind nur für das Projektteam zugänglich. Um einen Channel für dein Projekt einrichten zu lassen wende dich an eine oder einen der Slack-Admins. Das sind momentan unter anderem: @arndt, @jan, @frie, @regina, @scruewell, @thomas, @tollpatsch und @yuzhu.
 
-eigener Channel für Projektteam, bei Bedarf mehr
+Alle Teams starten zunächst mit einem Kanal. Sollte im Laufe des Projekts der Bedarf nach mehr Channels entstehen, sag den Slack-Admins Bescheid. Natürlich sind die Projektkoordinatorin und das gesamte Projektteam herzlich willkommen, sich auch in anderen Channels an den Diskussionen zu beteiligen. In die offenen Channels des Slacks können sich alle Mitglieder selbstständig eintragen.
 
-Natürlich bist Du herzlich willkommen, dich auch in anderen Channels an den Diskussionen zu beteiligen.
+Slack ist sehr intutitiv zu bedienen und erklärt sich schnell von selbst. Wer sich systematischer mit den Möglichkeiten und der Funktionsweise von Slack auseinandersetzen möchte, dem empfehlen wir ein Blick in den ["Features"-Überblick](https://slack.com/intl/de-de/features) auf der Slack-Website. Auf YouTube gibt es auch ein kurzes [Erklärvideo](https://www.youtube.com/watch?v=9RJZMSsH7-g).
 
 ### GNUPG
 
-GNUPG ist ein Kryptografie-System mit dem man digitale Signaturen erstellen und Dateien verschlüsseln kann. Auf Linux ist GNUPG meist schon installiert. Windows- und Mac-NutzerInnen können es hier herunterladen: [https://gnupg.org/download/index.html](https://gnupg.org/download/index.html). Für Windows gibt es auch das Softwarepaket GPG4Win: [http://www.gpg4win.org/](http://www.gpg4win.org/).
+GNUPG ist ein Kryptografie-System mit dem man digitale Signaturen erstellen und Dateien verschlüsseln kann. Auf Linux ist GNUPG meist schon installiert. Wenn nicht, dann installiere das Paket `gnupg2`. Windows- und Mac-NutzerInnen können es hier herunterladen: [https://gnupg.org/download/index.html](https://gnupg.org/download/index.html). Für Windows gibt es auch das Softwarepaket GPG4Win: [http://www.gpg4win.org/](http://www.gpg4win.org/).
 
-Für die Übertragung der Zugangsdaten zu den Daten nutzen wir verschlüsselte E-Mails. GNUPG stellt die Verschlüsselungstechnik bereit. Zusätzlich braucht es noch ein Plugin für Euer E-Mail-Programm. Wir empfehlen die Verwendung des E-Mail-Programms Thunderbird in Verbindung mit dem Plugin Enigmail. Enigmail kann aus dem Add-On-Menü von Thunderbird installiert werden. Eine Erklärung von PGP und Erläuterung zur Einrichtung mit Enigmail findest Du [hier](https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/). Thunderbird, falls du es noch nicht nutzt, kannst Du [hier](https://www.mozilla.org/de/thunderbird/) herunterladen.
+Für die Übertragung der Zugangsdaten zu den Daten nutzen wir verschlüsselte E-Mails. GNUPG stellt die Verschlüsselungstechnik bereit. Zusätzlich braucht es noch ein Plugin für Euer E-Mail-Programm. Wir empfehlen die Verwendung des E-Mail-Programms Thunderbird in Verbindung mit dem Plugin Enigmail. Enigmail kann aus dem Add-On-Menü von Thunderbird installiert werden. In vielen Linux-Distributionen kann es auch direkt über den Paketmanager der Distribution installiert werden. Eine Erklärung von PGP und Erläuterung zur Einrichtung mit Enigmail findest Du [hier](https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/). Thunderbird, falls du es noch nicht nutzt, kannst Du [hier](https://www.mozilla.org/de/thunderbird/) herunterladen. Und dieses Video erklärt leicht verständlich die Grundprinzipen der sogenannten 
 
 ### Hackmd
 
@@ -34,6 +47,11 @@ Das Coreteam telefoniert beispielsweise wöchentlich und legt für diese Telefon
 ## Verschlüsselung
 
 Datensicherheit ist von größter Wichtigkeit für CorrelAid. Auch wenn wir in den wenigsten Projekten mit personenbezogenen Daten zu haben, so haben wir es doch meist mit sensiblen, weil organisationsinternen Daten zu tun. Deshalb dürfen Projektdaten nie unverschlüsselt auf euren Rechnern gespeichert werden. Für die Verschlüsselung der Daten gibt es zwei Möglichkeiten. Grundsätzlich müssen Projektteammitglieder immer einen separaten Account auf ihrem Computer für die Arbeit für CorrelAid anlegen. Manche Betriebssystem erlauben es, das Heimverzeichnis des Benutzerkontos zu verschlüsseln. Hinweise mit welchen Betriebssystemen und wie das geht liefert der nächste Abschnitt. Hast Du diese Möglichkeit mit deinem Betriebssystem nicht, dann nutzt du stattdessen VeraCrypt, das im übernächsten Abschnitt beschrieben wird.
+
+| verschlüsseltes Heimverzeichnis                         | kein verschlüsseltes Heimverzeichnis                    |
+|---------------------------------------------------------|---------------------------------------------------------|
+| VeraCrypt wird nicht benötigt                           | VeraCrypt wird benötigt                                 |
+| anschließende Löschung des Accounts und Heimverzeichnis | anschließende Löschung des Accounts und Heimverzeichnis |
 
 ### Verschlüsseltes Heimverzeichnis
 
@@ -52,14 +70,6 @@ Herunterladen lässt sich VeraCrypt [hier](https://veracrypt.codeplex.com/). Auf
 ### Git
 
 
-### Eraser, Permanent Eraser oder Wipe für die Datenlöschung
+### Datenlöschung
 
-Werden Daten mit der normalen "Löschen"-Funktion gelöscht, wird zunächst nur der Verweis auf die Daten gelöscht und der entsprechende Platz auf der Festplatte zum Überschreiben freigeggeben. Richtig gelöscht werden die Daten allerdings erst, wenn der Platz auf der Festplatte irgendwann mal überschrieben wird. Sicheres Löschen bedeutet daher auch das Überschreiben der Daten. Für normale Festplatten (HDD) bieten sich zum sicheren Löschen einzelner Dateien folgende Programme an:
-
-Windows: [Eraser](http://www.heise.de/download/eraser-heidi-eraser-1118980.html)
-
-Linux: [Wipe](http://wipe.sourceforge.net/)
-
-Apple: [Permanent Eraser](http://www.edenwaith.com/products/permanent%20eraser/)
-
-Auf neueren (SSD) Festplatten werden Datein leider nicht als Block sondern in Teilen an vielen Orten gespeichert. Sicheres Löschen einzelner Dateien ist auf SSD Festplatten momentan leider nicht verlässlich möglich. Daher ist es wichtig, dass Daten aus CorrelAid-Projekten nie unverschlüsselt abgespeichert werden.
+Nach dem Projekt müssen alle Projektteammitglieder.

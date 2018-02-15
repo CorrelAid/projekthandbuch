@@ -1,3 +1,5 @@
+# setwd('~/Git/projekthandbuch')
+
 bookdown::render_book("index.Rmd", output_dir = "docs")
 # gitbook
 

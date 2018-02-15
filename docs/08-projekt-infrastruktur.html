@@ -160,11 +160,20 @@
 <li class="chapter" data-level="7.3" data-path="07-follow-up.html"><a href="07-follow-up.html#referenzen-hinweise-1"><i class="fa fa-check"></i><b>7.3</b> Referenzen &amp; Hinweise</a></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html"><i class="fa fa-check"></i><b>8</b> Projektinfratstruktur</a><ul>
-<li class="chapter" data-level="8.1" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#dateiaustausch-im-projektteam"><i class="fa fa-check"></i><b>8.1</b> Dateiaustausch im Projektteam</a></li>
-<li class="chapter" data-level="8.2" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#e-mail-verschlusselung"><i class="fa fa-check"></i><b>8.2</b> E-Mail-Verschlüsselung</a></li>
-<li class="chapter" data-level="8.3" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#datenubertragung"><i class="fa fa-check"></i><b>8.3</b> Datenübertragung</a></li>
-<li class="chapter" data-level="8.4" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#verschlusselung-veracrypt"><i class="fa fa-check"></i><b>8.4</b> Verschlüsselung (VeraCrypt)</a></li>
-<li class="chapter" data-level="8.5" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#datenloschung"><i class="fa fa-check"></i><b>8.5</b> Datenlöschung</a></li>
+<li class="chapter" data-level="8.1" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#kommunikation-1"><i class="fa fa-check"></i><b>8.1</b> Kommunikation</a><ul>
+<li class="chapter" data-level="8.1.1" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#slack"><i class="fa fa-check"></i><b>8.1.1</b> Slack</a></li>
+<li class="chapter" data-level="8.1.2" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#gnupg"><i class="fa fa-check"></i><b>8.1.2</b> GNUPG</a></li>
+<li class="chapter" data-level="8.1.3" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#hackmd"><i class="fa fa-check"></i><b>8.1.3</b> Hackmd</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#verschlusselung"><i class="fa fa-check"></i><b>8.2</b> Verschlüsselung</a><ul>
+<li class="chapter" data-level="8.2.1" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#verschlusseltes-heimverzeichnis"><i class="fa fa-check"></i><b>8.2.1</b> Verschlüsseltes Heimverzeichnis</a></li>
+<li class="chapter" data-level="8.2.2" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#veracrypt"><i class="fa fa-check"></i><b>8.2.2</b> VeraCrypt</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#datenubertragung-und-dateiaustausch"><i class="fa fa-check"></i><b>8.3</b> Datenübertragung und Dateiaustausch</a><ul>
+<li class="chapter" data-level="8.3.1" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#correlcloud"><i class="fa fa-check"></i><b>8.3.1</b> CorrelCloud</a></li>
+<li class="chapter" data-level="8.3.2" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#git"><i class="fa fa-check"></i><b>8.3.2</b> Git</a></li>
+<li class="chapter" data-level="8.3.3" data-path="08-projekt-infrastruktur.html"><a href="08-projekt-infrastruktur.html#datenloschung"><i class="fa fa-check"></i><b>8.3.3</b> Datenlöschung</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="09-appendix.html"><a href="09-appendix.html"><i class="fa fa-check"></i><b>9</b> Anhang/Appendix</a><ul>
 <li class="chapter" data-level="9.0.1" data-path="09-appendix.html"><a href="09-appendix.html#tabellarische-ubersicht-templates"><i class="fa fa-check"></i><b>9.0.1</b> Tabellarische Übersicht Templates:</a></li>
@@ -189,45 +198,107 @@
             <section class="normal" id="section-">
 <div id="projektinfratstruktur" class="section level1">
 <h1><span class="header-section-number">8</span> Projektinfratstruktur</h1>
-<ul>
-<li><a href="https://hackmd.io/CwJhFMDYDNoBgLQHYAmLIOADhSBAjATiWgRXAFYBjYKrAQ3NiA==">Einführung in die CorrelAid Infrastruktur</a></li>
-<li><a href="https://hackmd.io/CYRghiBsBGAcCsBaaBOeZEBYDGAmDYA7PAMyKTwAMApocLvIbjEA">CorreAid Infrastrktur</a></li>
-</ul>
-<div id="dateiaustausch-im-projektteam" class="section level2">
-<h2><span class="header-section-number">8.1</span> Dateiaustausch im Projektteam</h2>
-<ul>
-<li>Einrichtung CorrelCloud</li>
-<li>Funktionsweise CorrelCloud</li>
-</ul>
+<p>Technologie bzw. Software ist wenn nicht das A und O so doch zumindest das A bie CorrelAid. Vor und nach dem Kickoff-Projektworkshop kommunizieren das Team untereinander sowie die Projektkoordinatorin mit dem Team nur digital. Dazu nutzen wir verschiedene Softwarelösungen. Die wichtigsten, weil sie in fast jedem Projekt genutzt werden, stellen wir hier vor.</p>
+<p>Die Projektkoordinatorin legt vor dem Kickoff-Workshop in Absprache mit der Projektleitung fest, welche Softwarelösungen zum Einsatz kommen. Hier gibt es zwei Varianten, die sich im wesentlichen danach unterscheiden welche Software zum Dateiaustausch im Projektteam zum Einsatz kommt.</p>
+<table>
+<colgroup>
+<col width="52%" />
+<col width="47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Git</th>
+<th>CorrelCloud</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Slack</td>
+<td>Slack</td>
+</tr>
+<tr class="even">
+<td>GNPUG und Enigmail</td>
+<td>GNPUG und Enigmail</td>
+</tr>
+<tr class="odd">
+<td>Verschlüsseltes Heimverzeichnis oder VeraCrypt</td>
+<td>Verschlüsseltes Heimverzeichnis oder VeraCrypt</td>
+</tr>
+<tr class="even">
+<td>Git (lokal) und Gitlab (Server)</td>
+<td>NextCloud-Client (lokal) und CorrelCloud (Server)</td>
+</tr>
+</tbody>
+</table>
+<div id="kommunikation-1" class="section level2">
+<h2><span class="header-section-number">8.1</span> Kommunikation</h2>
+<p>Auf Paul Watzlawick geht das Diktum “Man kann nicht nicht kommunizieren” zurück und er hat Recht. Für die regelmäßige Kommunikation im Team kommt Slack zum Einsatz, für die sichere Übertragung sensibler Informationen und Daten verschlüsselte E-Mails und für regelmäßige Besprechungen und Absprachen Telekonferenzen. Die Agenda und das Protokoll für letztere werden, je nachdem welche Lösung das Team für den Dateiaustausch nutzt, auf GitLab oder der CorrelCloud geführt.</p>
+<div id="slack" class="section level3">
+<h3><span class="header-section-number">8.1.1</span> Slack</h3>
+<p>Slack ist ein Kommunikationstool zur besseren Koordination von Teams. Ein Slack ist in verschiedene thematische Channel eingeteilt. Prinzipiell kannst du es dir wie eine Sammlung von Whatsapp-Gruppenchats vorstellen, angereichert mit einigen nützlichen Features (File-Sharing, Direct Messages, Gifs…).</p>
+<p>Unser Slack ist <a href="https://correlaid.slack.com/">correlaid.slack.com</a>. Dort kommuniziert das Core-Team in diversen Channels. Für unsere Projektteam richten wir einige private Channels ein. Diese sind nur für das Projektteam zugänglich. Um einen Channel für dein Projekt einrichten zu lassen wende dich an eine oder einen der Slack-Admins. Das sind momentan unter anderem: <span class="citation">@arndt</span>, <span class="citation">@jan</span>, <span class="citation">@frie</span>, <span class="citation">@regina</span>, <span class="citation">@scruewell</span>, <span class="citation">@thomas</span>, <span class="citation">@tollpatsch</span> und <span class="citation">@yuzhu</span>.</p>
+<p>Alle Teams starten zunächst mit einem Kanal. Sollte im Laufe des Projekts der Bedarf nach mehr Channels entstehen, sag den Slack-Admins Bescheid. Natürlich sind die Projektkoordinatorin und das gesamte Projektteam herzlich willkommen, sich auch in anderen Channels an den Diskussionen zu beteiligen. In die offenen Channels des Slacks können sich alle Mitglieder selbstständig eintragen.</p>
+<p>Slack ist sehr intutitiv zu bedienen und erklärt sich schnell von selbst. Wer sich systematischer mit den Möglichkeiten und der Funktionsweise von Slack auseinandersetzen möchte, dem empfehlen wir ein Blick in den <a href="https://slack.com/intl/de-de/features">“Features”-Überblick</a> auf der Slack-Website. Auf YouTube gibt es auch ein kurzes <a href="https://www.youtube.com/watch?v=9RJZMSsH7-g">Erklärvideo</a>.</p>
 </div>
-<div id="e-mail-verschlusselung" class="section level2">
-<h2><span class="header-section-number">8.2</span> E-Mail-Verschlüsselung</h2>
-<p>Für Übertragung der Zugangsdaten zu den Daten nutzen wir verschlüsselte E-Mails. Dazu braucht ihr das Programm GNUPG - dieses stellt die Verschlüsselungstechnik bereit - und ein Plugin für Euer E-Mail-Programm.</p>
-<p>Auf Linux ist GNUPG meist schon installiert. Windows- und Mac-NutzerInnen können es hier herunterladen: <a href="https://gnupg.org/download/index.html" class="uri">https://gnupg.org/download/index.html</a>. Für Windows gibt es auch das Softwarepaket GPG4Win: <a href="http://www.gpg4win.org/" class="uri">http://www.gpg4win.org/</a>. Wir empfehlen die Verwendung des E-Mail-Programms Thunderbird in Verbindung mit dem Plugin Enigmail. Enigmail kann aus dem Add-On-Menü von Thunderbird installiert werden.</p>
-<p>Eine Erklärung von PGP und Erläuterung zur Einrichtung mit Enigmail findest Du hier:</p>
-<p><a href="https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/" class="uri">https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/</a></p>
+<div id="gnupg" class="section level3">
+<h3><span class="header-section-number">8.1.2</span> GNUPG</h3>
+<p>GNUPG ist ein Kryptografie-System mit dem man digitale Signaturen erstellen und Dateien verschlüsseln kann. Auf Linux ist GNUPG meist schon installiert. Wenn nicht, dann installiere das Paket <code>gnupg2</code>. Windows- und Mac-NutzerInnen können es hier herunterladen: <a href="https://gnupg.org/download/index.html" class="uri">https://gnupg.org/download/index.html</a>. Für Windows gibt es auch das Softwarepaket GPG4Win: <a href="http://www.gpg4win.org/" class="uri">http://www.gpg4win.org/</a>.</p>
+<p>Für die Übertragung der Zugangsdaten zu den Daten nutzen wir verschlüsselte E-Mails. GNUPG stellt die Verschlüsselungstechnik bereit. Zusätzlich braucht es noch ein Plugin für Euer E-Mail-Programm. Wir empfehlen die Verwendung des E-Mail-Programms Thunderbird in Verbindung mit dem Plugin Enigmail. Enigmail kann aus dem Add-On-Menü von Thunderbird installiert werden. In vielen Linux-Distributionen kann es auch direkt über den Paketmanager der Distribution installiert werden. Eine Erklärung von PGP und Erläuterung zur Einrichtung mit Enigmail findest Du <a href="https://thomas-leister.de/allgemein/pgp-e-mail-verschluesselung-mit-thunderbird-und-enigmail/">hier</a>. Thunderbird, falls du es noch nicht nutzt, kannst Du <a href="https://www.mozilla.org/de/thunderbird/">hier</a> herunterladen. Und dieses Video erklärt leicht verständlich die Grundprinzipen der sogenannten</p>
 </div>
-<div id="datenubertragung" class="section level2">
-<h2><span class="header-section-number">8.3</span> Datenübertragung</h2>
-<p>Funktionsweise von CorrelCloud</p>
+<div id="hackmd" class="section level3">
+<h3><span class="header-section-number">8.1.3</span> Hackmd</h3>
+<p>Ein Hackmd Pad ist ein Online-Dokument, wie du selbst gerade sehen kannst! An Hackmd-Pads (oder kurz Pads) können mehrere Personen gleichzeitig arbeiten (<em>live collaborative editing</em>). Sie sind in Markdown geschrieben, einer ziemlich einfachen Markup-Sprache. Öffne mal unser <a href="https://hackmd.io/CwJhFMDYDNoBgLQHYAmLIOADhSBAjATiWgRXAFYBjYKrAQ3NiA==?view">“Willkommen!”-Pad</a>. Wenn du oben links auf den Split-View umschaltest (zwischen dem Auge und dem Stift), kannst du im linken Panel den “Code” für dieses Dokument sehen. In diesem Pad findest Du auch mehr Informationen zur Nutzung von Hackmd im Coreteam von CorrelAid.</p>
+<p>Das Coreteam telefoniert beispielsweise wöchentlich und legt für diese Telefonkonferenzen ein Pad an, dass gleichzeitig Agenda und Protokoll ist. Das kann auch für Projektteams sehr hilfreich sein. Außer für die Vorbereitung und Protokollierung von Telefonkonferenzen kann man Pads auch gut für Ideensammlungen nutzen.</p>
 </div>
-<div id="verschlusselung-veracrypt" class="section level2">
-<h2><span class="header-section-number">8.4</span> Verschlüsselung (VeraCrypt)</h2>
+</div>
+<div id="verschlusselung" class="section level2">
+<h2><span class="header-section-number">8.2</span> Verschlüsselung</h2>
+<p>Datensicherheit ist von größter Wichtigkeit für CorrelAid. Auch wenn wir in den wenigsten Projekten mit personenbezogenen Daten zu haben, so haben wir es doch meist mit sensiblen, weil organisationsinternen Daten zu tun. Deshalb dürfen Projektdaten nie unverschlüsselt auf euren Rechnern gespeichert werden. Für die Verschlüsselung der Daten gibt es zwei Möglichkeiten. Grundsätzlich müssen Projektteammitglieder immer einen separaten Account auf ihrem Computer für die Arbeit für CorrelAid anlegen. Manche Betriebssystem erlauben es, das Heimverzeichnis des Benutzerkontos zu verschlüsseln. Hinweise mit welchen Betriebssystemen und wie das geht liefert der nächste Abschnitt. Hast Du diese Möglichkeit mit deinem Betriebssystem nicht, dann nutzt du stattdessen VeraCrypt, das im übernächsten Abschnitt beschrieben wird.</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>verschlüsseltes Heimverzeichnis</th>
+<th>kein verschlüsseltes Heimverzeichnis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>VeraCrypt wird nicht benötigt</td>
+<td>VeraCrypt wird benötigt</td>
+</tr>
+<tr class="even">
+<td>anschließende Löschung des Accounts und Heimverzeichnis</td>
+<td>anschließende Löschung des Accounts und Heimverzeichnis</td>
+</tr>
+</tbody>
+</table>
+<div id="verschlusseltes-heimverzeichnis" class="section level3">
+<h3><span class="header-section-number">8.2.1</span> Verschlüsseltes Heimverzeichnis</h3>
+</div>
+<div id="veracrypt" class="section level3">
+<h3><span class="header-section-number">8.2.2</span> VeraCrypt</h3>
 <p>VeraCrypt ist ein Verschlüsselungsprogramm und TrueCrypt Nachfolger. Mit Hilfe von VeraCrypt lassen sich verschlüsselte in frei gewählter Größe Container erstellen. Zum entschlüsseln (“to mount” genannt) wird ein Passwort gebraucht. Ein entschlüsselter (“Mounted”) VeraCrypt Container erscheint als ein neues Laufwerk auf dem Rechner. Alle Daten, die auf dieses Laufwerkabgelegt werden, werden automatisch verschlüsselt. Programme können trotzdem auf diese Daten zugreifen, da sie dafür im Arbeitsspeicher entschlüsselt werden.</p>
 <p>AnalystInnen bekommen die Projektdaten als VeraCrypt Container und das dazugehörige Passwort. Zum Arbeiten an den Daten muss der Container entschlüsselt werden. Die Daten dürfen aber nie entschlüsselt auf einem Rechner gespeichert werden. Darum darf z.B. auch der Workspace von R nicht gespeichert werden.</p>
-<p>Herunterladen lässt sich VeraCrypt hier:</p>
-<p><a href="https://veracrypt.codeplex.com/" class="uri">https://veracrypt.codeplex.com/</a></p>
-<p>Eine schnelle Anleitung gibt es hier. Für die Arbeit bei CorrelAid reicht es bei allen Schritten die default Einstellungen zu verwenden:</p>
-<p><a href="https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial" title="Beginner%27s%20Tutorial">https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial</a></p>
+<p>Herunterladen lässt sich VeraCrypt <a href="https://veracrypt.codeplex.com/">hier</a>. Auf der Website findet sich auch eine <a href="https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial">Anleitung</a>. Bitte lies diese aufmerksam durch Für die Arbeit bei CorrelAid reicht es bei allen Schritten die Voreinstellungen zu verwenden:</p>
 </div>
-<div id="datenloschung" class="section level2">
-<h2><span class="header-section-number">8.5</span> Datenlöschung</h2>
-<p>Werden Daten mit der normalen “Löschen”-Funktion gelöscht, wird zunächst nur der Verweis auf die Daten gelöscht und der entsprechende Platz auf der Festplatte zum Überschreiben freigeggeben. Richtig gelöscht werden die Daten allerdings erst, wenn der Platz auf der Festplatte irgendwann mal überschrieben wird. Sicheres Löschen bedeutet daher auch das Überschreiben der Daten. Für normale Festplatten (HDD) bieten sich zum sicheren Löschen einzelner Dateien folgende Programme an:</p>
-<p>Windows: <a href="http://www.heise.de/download/eraser-heidi-eraser-1118980.html">Eraser</a></p>
-<p>Linux: <a href="http://wipe.sourceforge.net/">Wipe</a></p>
-<p>Apple: <a href="http://www.edenwaith.com/products/permanent%20eraser/">Permanent Eraser</a></p>
-<p>Auf neueren (SSD) Festplatten werden Datein leider nicht als Block sondern in Teilen an vielen Orten gespeichert. Sicheres Löschen einzlener Datei ist auf SSD Festplatten momentan leider nicht verlässlich möglich. Daher ist es wichtig, dass CorrelAid Daten nie unverschlüsselt abgespeichert werden.</p>
+</div>
+<div id="datenubertragung-und-dateiaustausch" class="section level2">
+<h2><span class="header-section-number">8.3</span> Datenübertragung und Dateiaustausch</h2>
+<div id="correlcloud" class="section level3">
+<h3><span class="header-section-number">8.3.1</span> CorrelCloud</h3>
+</div>
+<div id="git" class="section level3">
+<h3><span class="header-section-number">8.3.2</span> Git</h3>
+</div>
+<div id="datenloschung" class="section level3">
+<h3><span class="header-section-number">8.3.3</span> Datenlöschung</h3>
+<p>Nach dem Projekt müssen alle Projektteammitglieder.</p>
 
+</div>
 </div>
 </div>
             </section>
