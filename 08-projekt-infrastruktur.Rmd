@@ -70,9 +70,10 @@ Linux: In den neueren Versionen der verbreitesten Distributionen sollte man bei 
 
 VeraCrypt ist ein Verschlüsselungsprogramm und TrueCrypt Nachfolger. Mit Hilfe von VeraCrypt lassen sich verschlüsselte Container erstellen. Zum entschlüsseln ("to mount" genannt) wird ein Passwort gebraucht. Ein entschlüsselter ("Mounted") VeraCrypt Container erscheint als ein neues Laufwerk auf dem Rechner. Alle Daten, die auf dieses Laufwerkabgelegt werden, werden automatisch verschlüsselt. Programme können trotzdem auf diese Daten zugreifen, da sie dafür im Arbeitsspeicher entschlüsselt werden. Der Speicherplatz dieses virtuellen Laufwerks bestimmt sich durch die Größe des Containers. Einmal erstellt kann die Größe des Containers nicht mehr angepasst werden. Die Projektleiterin muss deshalb abschätzen, welche Datenmengen gespeichert werden und den Projektteammitgliedern entsprechende Vorgaben zur Erstellung des Containers machen.
 
-AnalystInnen bekommen die Projektdaten als VeraCrypt Container und das dazugehörige Passwort. Zum Arbeiten an den Daten muss der Container entschlüsselt werden. Die Daten dürfen aber nie entschlüsselt auf einem Rechner gespeichert werden. Darum darf z.B. auch der Workspace von R nicht gespeichert werden.
+AnalystInnen bekommen die Projektdaten als VeraCrypt Container und das dazugehörige Passwort. Zum Arbeiten an den Daten muss der Container entschlüsselt werden. Die Daten dürfen aber nie entschlüsselt auf einem Rechner gespeichert werden. Darum darf z.B. auch der Workspace von R nicht gespeichert werden. Mit VeraCrypt wird der mit dem Programm erstellte Container als Laufwerk ins Betriebssystem eingebunden ("mount"). Während mit den darin gespeicherten Daten gearbeitet wird muss also das Programm im Hintergrund laufen. Abschließend wird das Laufwerk über VeraCrypt wieder ausgehängt ("dismount") und das Programm geschlossen bevor der Computer heruntergefahren werden kann. Es ist wichtig, den VeraCrypt-Container immer unter dem gleichen Laufwerksbuchstaben (Windows) bzw. Pfad (Mac, Linux) einzubinden.
 
 Herunterladen lässt sich VeraCrypt [hier](https://veracrypt.codeplex.com/). Auf der Website findet sich auch eine [Anleitung](https://veracrypt.codeplex.com/wikipage?title=Beginner%27s%20Tutorial). Bitte lies diese aufmerksam durch Für die Arbeit bei CorrelAid reicht es bei allen Schritten die Voreinstellungen zu verwenden.
+
 
 ## Datenübertragung und Dateiaustausch
 
@@ -80,13 +81,16 @@ Wie bereits eingangs angesprochen kann der Dateiaustausch im Team entweder über
 
 ### CorrelCloud
 
-CorrelAid nutzt die Software NextCloud. Diese besteht aus einer serverseitigen Software, die einen Could-Storage-Dienst ähnlich Dropbox bereitstellt, und einem Client für Endnutzerinnen, der die Daten auf dem Computer der Nutzerin mit den Daten in der Cloud synchronisiert, ähnlich dem Dropbox-Client, den sicher viele Projektteammitglieder bereits hosten. 
+CorrelAid nutzt die Software NextCloud. Diese besteht aus einer serverseitigen Software, die einen Could-Storage-Dienst ähnlich Dropbox bereitstellt, und einem Client für Endnutzerinnen, der die Daten auf dem Computer der Nutzerin mit den Daten in der Cloud synchronisiert, ähnlich dem Dropbox-Client, den sicher viele Projektteammitglieder kennen. 
 
+Die CorrelCloud, so nennen wir unsere NextCloud-Installation auf unserem Server, ist unter [correlcloud.org](https://correlcloud.org/) erreichbar. Projektteams bekommen auf der CorrelCloud einen eigneen Ordner auf den nur sie Zugriff haben. Einen solchen Account können die CorrelCloud-Admins @arndt, @frie und @tollpatsch einrichten. Die Projektoordinatorin bittet eine oder einen der Admins, um die Einrichtung des Ordners und um die Einrichtung von Nutzerkonten für die Projektteammitglieder. Dazu übermittelt sie die Namen der Projektteammitglieder. Die Projektkoordinatorin bekommt dann von der oder dem Admin die Logins für die CorrelCloud zugeschickt. Diese gibt die Projektkoordinatorin per verschlüsselter Mail, telefonisch oder per Slack individuell an die Projektteammitglieder weiter. Die Projektteammitglieder loggen sich erstmals auf [correlcloud.org](https://correlcloud.org/) und sind angehalten, dann zunächst ihr Passwort zu ändern. Beim ersten Login erscheint eine Begrüßungsnachricht, die u.a. einen [Link zum Download](https://nextcloud.com/install/#install-clients) des NextCloud-Client enthält. NextCloud gibt es für Windows, Mac und Linux.
 
-
+Wird das Programm NextCloud zum ersten Mal gestartet muss man zunächst den Account einrichten. Zunächst wird nach der Adresse des NextCloud Servers gefragt. Diese ist [https://correlcloud.org](https://correlcloud.org). Danach muss man seine Zugangsdaten für die CorrelCloud angeben. Danach muss man noch weitere Einstellungen zum "Server" und "Local Folder" vornehmen. Die Einstellungen für den Server können bei den Standardeinstellungen belassen werden. Was den Local Folder angeht muss dieser entweder innerhalb des verschlüsselten Heimverzeichnisses angelegt werden! Wird VeraCrypt genutzt muss der CorrelCloud-Ordner innerhalb des durch VeraCrypt eingbundenen virtuellen Laufwerks liegen! Damit die Synchronisierung über die NextCloud problemlos funktioniert muss zuerst VeraCrypt gestartet werden, der Container als Laufwerk eingebunden werden und erst dann NextCloud gestartet werden. Dabei ist es wichtig VeraCrypt immer unter dem gleichen Laufwerksbuchstaben (Windows) beziehungsweise Pfad (Mac, Linux) einzubinden.
+ 
 ### Git
 
+folgt demnächst
 
 ### Datenlöschung
 
-Nach dem Projekt müssen alle Projektteammitglieder.
+Nach dem Projekt müssen alle Projektteammitglieder ihren für CorrelAid angelegten Nutzeraccount mitsamt sämtlicher Daten löschen. Die vom Team geschriebenen Skripte dürfen Sie unter Umständen für die Nutzung in anderen Projekte behalten. Dazu ist mit der Projektleiterin abzuklären, welche Dateien behalten werden dürfen.
