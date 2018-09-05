@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>projekthandbuch.utf8</title>
+  <title></title>
   <meta name="description" content="">
-  <meta name="generator" content="bookdown 0.5.10 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
 
-  <meta property="og:title" content="projekthandbuch.utf8" />
+  <meta property="og:title" content="" />
   <meta property="og:type" content="book" />
   
   
@@ -17,7 +17,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="projekthandbuch.utf8" />
+  <meta name="twitter:title" content="" />
   
   
   
@@ -263,7 +263,8 @@ Relevante Akteurinnen: Projektkoordinatorin, Core Team, Auswahlgruppe (wird im P
 <div id="auswahl-eines-projektteams" class="section level3">
 <h3><span class="header-section-number">2.3.5</span> Auswahl eines Projektteams</h3>
 <p>Die Projektkoordinatorin schließt das Formular. Sie exportiert anschließend die Liste aus MailChimp.</p>
-<p>Sie nutzt das Template für die Bewerberinnenübersicht, um eine Übersicht über die Bewerberinnen für die Auswahlgruppe zu erstellen. Sie ändert dazu den Code am Anfang des RMarkdown-Dokuments so, dass dieses die aus MailChimp exportierte Liste der Bewerberinnen lädt und kompiliert das Dokument als PDF. Das Dokument schickt sie den Mitgliedern der Auswahlkommission entweder in einer persönlichen Nachricht per Slack oder in einer verschlüsselten E-Mail.</p>
+<p>Sie nutzt das Template für die Bewerberinnenübersicht, um eine Übersicht über die Bewerberinnen für die Auswahlgruppe zu erstellen. Dabei anonymisiert sie die Vor- und Nachnamen der Bewerberinnnen. Sie vergibt z.B. an jede Bewerberin eine numerische ID. Der Rest der Auswahlgruppe erhält nur die anonymisierte List.</p>
+<p>Die Projektkoordinatorin kann zur einfachen Erstellung einer Bewerberinnenliste den Code am Anfang des RMarkdown-Dokuments so ändern, dass dieses die aus MailChimp exportierte Liste der Bewerberinnen lädt. Anschließend kompiliert sie das Dokument als PDF. Das Dokument schickt sie den Mitgliedern der Auswahlkommission entweder in einer persönlichen Nachricht per Slack oder in einer verschlüsselten E-Mail.</p>
 <p>In dieser Nachricht schickt die Projektkoordinatorin auch eine Erinnerung an die Konferenz der Auswahlgruppe. Diese findet per Telefon oder appear.in statt. Die Auswahlgruppe hält ihre Entscheidung in einem Protokoll fest. Dazu wird eine Protokollantin bestimmt.</p>
 <p>Bei der Auswahl kann es hilfreich sein, die Aufgabe als das Befüllen einer Berufungsliste zu betrachten. Zunächst soll die beste Bewerberin identifiziert werden, dann die zweite und so weiter. Dabei ist zu beachten, dass nicht nur die statistischen und technischen Fähigkeiten, sondern auch inhaltliche Interessen und Kompetenzen sowie Soft Skills beachtet werden sollen. Außerdem wollen wir explizit nicht die technisch besten auswählen, sondern auch gezielt Interessierte mit Lernpotenzial auswählen. <strong>Den BewerberInnen wird niemals eine Rangfolge kommuniziert. Diese soll nur eine Hilfestellung für den Auswahlprozess sein.</strong></p>
 <p>Die Auswahlgruppe wählt immer zwei Personen zusätzlich aus welche die Projektkoordinatorin direkt anfragen kann, falls eine der anderen ausgewählten Bewerberinnen unerwartet absagt.</p>
@@ -469,15 +470,15 @@ Bei Fragen schreibe gerne eine Mail an [E-Mail der Projektkordinatorin]
 <div class="yellow">
 <table style="width:100%;">
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -553,15 +554,15 @@ Bewerber_in 3
 <div class="yellow">
 <table style="width:100%;">
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -834,10 +835,11 @@ gitbook.start({
 "facebook": true,
 "twitter": true,
 "google": false,
+"linkedin": false,
 "weibo": false,
 "instapper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -864,7 +866,7 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "true";
+    var src = "";
     if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:" && /^https?:/.test(src))
       src = src.replace(/^https?:/, '');
