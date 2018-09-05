@@ -6,7 +6,7 @@ params:
 # Einleitung: Überblick über den Projektablauf {#intro}
 
 ```{r libraries, echo=FALSE}
-library(emo)
+# library(emo)
 ```
 
 
